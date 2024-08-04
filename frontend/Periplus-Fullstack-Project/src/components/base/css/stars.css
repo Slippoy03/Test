@@ -1,0 +1,14 @@
+.half-star {
+  position: relative;
+  display: inline-block;
+  color: #d1d5db; /* Warna abu-abu */
+}
+
+.half-star::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #FFBA49; /* Warna kuning */
+}
